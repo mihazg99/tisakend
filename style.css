@@ -1,0 +1,189 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+
+
+
+.div1{
+  widht:100%;
+  height:600px;
+  min-width:1200px;
+  background-color: #161616;
+  background-image: url("img/top1.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+h1{
+  margin: 0;
+}
+
+.div1 hr{
+  width:400px;
+  border: 1px solid white;
+  margin-top: -3px;
+}
+
+.div1 p{
+  margin:0;
+  font-size: 24px;
+  color:white;
+  font-family: Quicksand;
+  font-weight: 300;
+}
+
+.padding{
+  padding-top: 150px;
+}
+
+.font-big{
+  font-size: 64px;
+  font-weight: normal;
+  font-family: Quicksand;
+  color:white;
+}
+
+header{
+  width:100%;
+  height:80px;
+  min-width:1200px;
+  background-color: #161616;
+}
+
+nav{
+  font-style: Quicksand;
+  font-weight: 400px;
+  font-size: 20px;
+  width:40%;
+  position:absolute;
+  top:0px;
+  right:0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color:white;
+  border-bottom: 2px solid white;
+  text-decoration: none;
+}
+
+
+/* USLUGE */
+
+.usluge{
+  width:100%;
+  height:840px;
+  min-width:1200px;
+}
+
+.usluge h1{
+  font-size: 64px;
+  font-weight: normal;
+  font-family: Quicksand;
+  color:black;
+}
+
+.box{
+  border: 2px solid black;
+  padding:15px;
+  background-color: white;
+
+}
+
+.box:hover{
+  background-color: black;
+  color:white;
+}
+
+.font-usluge{
+  font-family:Quicksand;
+  font-size:24px;
+  color:black;
+  font-weight: 400;
+}
+
+.usluge a{
+  text-decoration: none;
+  color:black;
+}
+
+/* KRAJ USLUGE */
+
+/* RADOVI */
+
+.radovi{
+  width:100%;
+  height:650px;
+  background-color: #161616;
+  min-width:1200px;
+}
+
+.radovi h1{
+  font-size: 64px;
+  font-weight: normal;
+  font-family: Quicksand;
+  color:white;
+}
+
+.slider{
+  margin:0 auto;
+  width:800px;
+  height:700px;
+}
+
+/* KRAJ RADOVI */
+
+
+/* GDJE SMO? */
+
+.gdje{
+  width:100%;
+  height:650px;
+  min-width:1200px;
+}
+
+.gdje h1{
+  font-size: 64px;
+  font-weight: normal;
+  font-family: Quicksand;
+  color:black;
+}
+
+iframe{
+  border: 1px solid black;
+}
+
+/* KRAJ GDJE */
+
+/* KONTAKT */
+
+.kontakt{
+  width:100%;
+  height:650px;
+  background-color: #161616;
+  min-width:1200px;
+}
+
+/* KRAJ KONTAKT */
